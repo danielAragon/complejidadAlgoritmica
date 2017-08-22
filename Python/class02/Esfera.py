@@ -6,7 +6,7 @@ class Esfera(object):
     def setRadio(self,radio):
         self.radio=radio
     def getRadio(self):
-        return(seld.radio)
+        return(self.radio)
     def volumen(self):
         v=4.0/3.0*pi*(self.radio**3)
         return(v)
