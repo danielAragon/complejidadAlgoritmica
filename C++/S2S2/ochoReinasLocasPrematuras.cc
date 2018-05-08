@@ -24,6 +24,7 @@ void findLongestPath(int mat[M][N],int visited[M][N],
     //if destination is found, update max_dist
     if( i == x && j == y ){
         max_dist = max(dist,max_dist);
+        cout<<max_dist<<" ";
         return;
     }
     //set (i,j) cell as visited 

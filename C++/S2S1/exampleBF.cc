@@ -5,7 +5,7 @@ int main(){
     char* a= (char*)"UPC, exigete, innova";
     char* b= (char*)"exigete";
     StringMatching* sm = new StringMatching();
-    
+
     int n = 20;
     int m = 7;
     double beginTime = clock();
@@ -23,10 +23,10 @@ int main(){
     
     for (int i=0;i<6;i++) {
         string cad = (path[i]).c_str();
-        char* subcad = &*cad.begin();
+        //char* subcad = &*cad.begin();
         int longitud = cad.size();
         
-        cout<<cad<<" "<<longitud;
+        cout<<cad<<" "<<longitud<<" ";
         cout<<path[i]<<" es=> ";
         cout<<sm->stringScanner(cad,longitud)<<endl;
     }

@@ -1,8 +1,9 @@
 class Poligono(object):
     def __init__(self,id):
         self.id=id 
+    verices = "dd"
     def toString(self):
-        return (str(self.id))
+        return (str(self.id) + str(self.verices))
 
 class Rectangulo(Poligono):
     def __init__(self,id,width,height):
